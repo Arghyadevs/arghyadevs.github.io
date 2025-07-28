@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arghyadip Pakhira | Portfolio</title>
+  <link rel="icon" href="assets/profile.jpg" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Animated background -->
+  <div class="bg-animation">
+    <div class="floating-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+      <div class="shape shape-4"></div>
+      <div class="shape shape-5"></div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <div class="profile-container">
+          <img src="assets/profile.jpg" alt="Arghyadip Pakhira" class="nav-profile" />
+          <div class="profile-glow"></div>
+        </div>
+        <span class="brand-text">
+          <span class="name-primary">Arghyadip</span>
+          <span class="name-secondary">Pakhira</span>
+        </span>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Open navigation" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about" class="nav-link" data-text="About">About</a>
+        <a href="#skills" class="nav-link" data-text="Skills">Skills</a>
+        <a href="#articles" class="nav-link" data-text="Articles">Articles</a>
+        <a href="#cv" class="nav-link" data-text="CV">CV</a>
+        <a href="#contact" class="nav-link" data-text="Contact">Contact</a>
+        <button class="theme-toggle" id="theme-toggle">
+          <div class="toggle-icon">
+            <div class="moon">🌙</div>
+            <div class="sun">☀️</div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="typing-container">
+          <span class="greeting">Hello, I'm</span>
+          <h1 class="hero-title">
+            <span class="glitch" data-text="Arghyadip Pakhira">Arghyadip Pakhira</span>
+          </h1>
+          <div class="typewriter">
+            <span class="typewriter-text"></span>
+            <span class="cursor">|</span>
+          </div>
+        </div>
+        
+        <p class="hero-description">
+          Crafting innovative solutions through code, research, and technical storytelling. 
+          I transform complex problems into elegant, scalable applications.
+        </p>
+        
+        <div class="hero-buttons">
+          <a href="https://arghyadevs.vercel.app" class="btn btn-primary">
+            <span>View Portfolio🔗</span>
+            <div class="btn-glow"></div>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <span>Get In Touch📩</span>
+          </a>
+        </div>
+        
+        <div class="scroll-indicator">
+          <div class="scroll-arrow"></div>
+          <span>Scroll to explore</span>
+        </div>
+      </div>
+      
+      <div class="hero-visual">
+        <div class="code-terminal">
+          <div class="terminal-header">
+            <div class="terminal-controls">
+              <span class="control close"></span>
+              <span class="control minimize"></span>
+              <span class="control maximize"></span>
+            </div>
+            <span class="terminal-title">~/arghyadip-portfolio</span>
+          </div>
+          <div class="terminal-body">
+            <div class="code-line"><span class="prompt">$</span> <span class="command">whoami</span></div>
+            <div class="code-line output">Arghyadip Pakhira</div>
+            <div class="code-line"><span class="prompt">$</span> <span class="command">cat skills.txt</span></div>
+            <div class="code-line output">JavaScript, Python, React, Node.js</div>
+            <div class="code-line output">Machine Learning, Web Development</div>
+            <div class="code-line"><span class="prompt">$</span> <span class="command">echo "Building the future..."</span></div>
+            <div class="code-line output">Building the future...</div>
+            <div class="code-line"><span class="prompt">$</span> <span class="cursor-blink">_</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      
+      <div class="about-grid">
+        <div class="about-text">
+          <div class="text-block">
+            <h3>🎓 Academic Journey</h3>
+            <p>
+              Currently pursuing Computer Science and Engineering at <strong>Techno Main Saltlake</strong>. 
+              My academic foundation spans software architecture, algorithms, and cutting-edge research methodologies.
+            </p>
+          </div>
+          
+          <div class="text-block">
+            <h3>💡 Passion & Expertise</h3>
+            <p>
+              I specialize in building scalable, high-performance applications using modern tech stacks. 
+              My work bridges theoretical computer science with practical, real-world solutions.
+            </p>
+          </div>
+          
+          <div class="text-block">
+            <h3>🚀 Looking Forward</h3>
+            <p>
+              Actively seeking internship and research opportunities to collaborate with innovative teams, 
+              contribute to impactful projects, and push the boundaries of technology.
+            </p>
+          </div>
+        </div>
+        
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-number" data-target="3">0</div>
+            <div class="stat-label">Years of Study</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-target="50">0</div>
+            <div class="stat-label">Projects Built</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-target="10">0</div>
+            <div class="stat-label">Tech Articles</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-target="5">0</div>
+            <div class="stat-label">Languages</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Tech Stack</h2>
+        <div class="section-line"></div>
+      </div>
+      
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span class="skill-name">React</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">JavaScript</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="95%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">CSS/SCSS</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3>Backend</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span class="skill-name">Node.js</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="88%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Python</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="92%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Databases</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3>Tools & Others</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span class="skill-name">Git/GitHub</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Docker</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="75%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">AWS</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="70%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Articles Section -->
+  <section id="articles" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Latest Articles</h2>
+        <div class="section-line"></div>
+      </div>
+      
+      <div id="articles-grid" class="articles-grid loading">
+        <div class="loading-spinner">
+          <div class="spinner"></div>
+          <p>Loading latest articles...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CV Section -->
+  <section id="cv" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Curriculum Vitae</h2>
+        <div class="section-line"></div>
+      </div>
+      
+      <div class="cv-container">
+        <div class="cv-actions">
+          <a href="assets/Arghyadip_Pakhira_CV.pdf" target="_blank" class="btn btn-primary">
+            <span>📄 Download CV</span>
+            <div class="btn-glow"></div>
+          </a>
+        </div>
+        
+        <div class="cv-viewer">
+          <iframe src="assets/Arghyadip_Pakhira_CV.pdf" title="CV PDF"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="section-line"></div>
+      </div>
+      
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p>Ready to collaborate on your next project? Let's build something amazing together.</p>
+          
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div class="contact-details">
+              <strong>Email</strong>
+              <a href="mailto:arghyadip.info@gmail.com">arghyadip.info@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="social-links">
+          <h3>Find Me Online</h3>
+          <div class="social-grid">
+            <a href="https://github.com/Arghyadevs" target="_blank" class="social-link github">
+              <div class="social-icon">
+                <img src="assets/icons/github.svg" alt="Github" />
+              </div>
+              <span>GitHub</span>
+            </a>
+            
+            <a href="https://medium.com/@arghyadevs" target="_blank" class="social-link medium">
+              <div class="social-icon">
+                <img src="assets/icons/medium.svg" alt="Medium" />
+              </div>
+              <span>Medium</span>
+            </a>
+            
+            <a href="https://www.linkedin.com/in/arghyadip-pakhira/" target="_blank" class="social-link linkedin">
+              <div class="social-icon">
+                <img src="assets/icons/linkedin.svg" alt="Linkedin" />
+              </div>
+              <span>LinkedIn</span>
+            </a>
+            
+            <a href="https://twitter.com/Arghya_dip7" target="_blank" class="social-link twitter">
+              <div class="social-icon">
+                <img src="assets/icons/x-logo.svg" alt="X" />
+              </div>
+              <span>X</span>
+            </a>
+            
+            <a href="https://instagram.com/arghya_dip7" target="_blank" class="social-link instagram">
+              <div class="social-icon">
+                <img src="assets/icons/instagram.svg" alt="Instagram" />
+              </div>
+              <span>Instagram</span>
+            </a>
+            
+            <a href="https://facebook.com/arghya.dip.07" target="_blank" class="social-link facebook">
+              <div class="social-icon">
+                <img src="assets/icons/fb logo.svg" alt="Facebook" />
+              </div>
+              <span>Facebook</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2025 Arghyadip Pakhira. Crafted with passion and code.</p>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#articles">Articles</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    // Hamburger menu toggle
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      hamburger.classList.toggle('open');
+      hamburger.setAttribute('aria-expanded', navLinks.classList.contains('open'));
+    });
+
+    // Optional: Close menu when a link is clicked (mobile UX)
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= 768) {
+          navLinks.classList.remove('open');
+          hamburger.classList.remove('open');
+          hamburger.setAttribute('aria-expanded', 'false');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
